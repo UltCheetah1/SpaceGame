@@ -3,7 +3,7 @@
 
     "red":
     {
-      "frame": {"x":0,"y":0,"w":4,"h":4},
+      "frame": {"x":20,"y":0,"w":4,"h":4},
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {"x":0,"y":0,"w":4,"h":4},
@@ -12,7 +12,7 @@
     },
     "yellow":
     {
-      "frame": {"x":4,"y":0,"w":4,"h":4},
+      "frame": {"x":20,"y":0,"w":4,"h":4},
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {"x":0,"y":0,"w":4,"h":4},
@@ -21,7 +21,7 @@
     },
     "green":
     {
-      "frame": {"x":8,"y":0,"w":4,"h":4},
+      "frame": {"x":20,"y":0,"w":4,"h":4},
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {"x":0,"y":0,"w":4,"h":4},
@@ -30,7 +30,7 @@
     },
     "blue":
     {
-      "frame": {"x":12,"y":0,"w":4,"h":4},
+      "frame": {"x":20,"y":0,"w":4,"h":4},
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {"x":0,"y":0,"w":4,"h":4},
@@ -39,7 +39,7 @@
     },
     "purple":
     {
-      "frame": {"x":16,"y":0,"w":4,"h":4},
+      "frame": {"x":20,"y":0,"w":4,"h":4},
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {"x":0,"y":0,"w":4,"h":4},
