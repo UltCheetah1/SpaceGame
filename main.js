@@ -63,7 +63,7 @@ function create() {
   player.setScale(2);
   playerDestroyedSound = this.sound.add("playerDestroyed");
 
-  // Increase the size of the player ship
+  // Set Bounds
   player.setCollideWorldBounds(true);
 
   // Keyboard input
@@ -147,10 +147,12 @@ function laserCollision(enemy, laser, scene) {
   laser.setVisible(false);
   laser.disableBody(true, true);
   move(enemy, scene);
+  
   // Increase score when an enemy is hit
   score += 10;
   scoreText.setText("Score: " + score);
 }
+
 // Global function to handle player colliding with enemy
 function playerEnemyCollision(player, enemy, scene) {
   playerDestroyedSound.play();
@@ -166,9 +168,11 @@ function playerEnemyCollision(player, enemy, scene) {
   livesText.setText('Lives: ' + lives); 
   // Update the displayed lives
   if (lives <= 0) {
+    
 // Display game over message
       const gameOverText = scene.add.text(300, 400, 'Game OVER', { fontSize: '48px', fill: '#FF0000' });
     gameOverText.setOrigin(0.5);
+    
 // Make the player inactive, invisible, and disable its body
     player.setActive(false);
     player.setVisible(false);

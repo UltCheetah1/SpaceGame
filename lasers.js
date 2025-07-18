@@ -26,7 +26,8 @@ function fireLaser(laserGroup, player) {
     laser.setActive(true);
     laser.setVisible(true);
     laser.enableBody(true, player.x, player.y - 20, true, true);
-    laser.setVelocityY(-300); // Set laser to move upward
+    // Set laser to move upward
+    laser.setVelocityY(-300);
   }
 }
 
